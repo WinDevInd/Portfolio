@@ -1,0 +1,57 @@
+/*************** labels of css section ***************
+*************** Pixel Material Design Resume 1.0v 
+default settings
+section
+header
+panel
+media
+list-icon
+progress
+skill
+portfolio
+********************/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,400italic,700,900);
+/***************default settings********************/
+body { font-family: 'Roboto', sans-serif; background:#eee; padding:80px 0px; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Roboto', sans-serif; }
+p { color:#333; }
+a { color:#2856b6; }
+a:focus { outline:none; }
+/***************section********************/
+.wrap { border-radius: 4px; overflow: hidden; box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); display:block; }
+section { background:#fff; display:block; padding:240px 30px 30px 30px; }
+.text-primary { color:#2856b6; }
+/***************header********************/
+header { background:#2856b6; border-radius: 4px 4px 0px 0px; height:200px; display:block; }
+.basic-info { position: relative; z-index:9; width:300px; margin:0px auto; padding-top:100px; text-align:center; display:block; }
+.basic-info .thumbnail { border:8px solid #2856b6;display:block;padding:0px; margin:0px auto; background:none; height:200px; width:200px; border-radius:50%; }
+.basic-info h2 { margin:0px; padding:15px 0px; font-size:36px; font-weight:400; }
+.basic-info p { color:#333; font-size:18px; }
+
+/******************panel default**********************/
+.panel { background:#fafafa; box-shadow: 0 1px 1px rgba(0, 0, 0, .1); border:none; margin-bottom:30px; }
+.panel .panel-body { position:relative; padding:50px; }
+.panel-icon { position:absolute; right:20px; top:20px; width:60px; height:60px; border-radius:50%; background:#2856b6; display:block; text-align:center; font-size:30px; color:#fff; line-height:60px; }
+.panel .panel-body h3 { margin:0px; padding-bottom:15px; font-size:24px; font-weight:500; }
+.panel .panel-body p { font-size:16px; }
+/***************media********************/
+.media .media-icon{background:#2856b6;width:30px;color:#fff;font-size:16px;line-height:30px;height:30px;border-radius:50%; display:block; text-align:center; }
+.media .media-body { vertical-align:middle; margin:0px; line-height:30px; }
+.media .media-body p { margin:0px; }
+.media-body, .media-left, .media-right { vertical-align: middle; }
+/**************************list-icon*********************************/
+.list-icon li i { color:#2856b6; }
+.list-icon li { font-size:16px; }
+/**************************progress*********************************/
+.progress { height:10px; margin:0px; border-radius: 4px; background:#fff; border:1px solid #2856b6; box-shadow: none; }
+.progress .progress-bar { background:#2856b6; }
+/****************skill*******************/
+.media-skill .media { margin-top:10px; }
+.media-skill .media .media-icon { height:40px; width:40px; line-height:40px; font-size:18px; }
+.media-skill .media .media-body { line-height:20px; }
+.media-skill .media .media-body p { font-size:14px; }
+/**************************portfolio*********************************/
+.portfolio-grid { margin-top:10px; }
+.portfolio-grid .thumbnail { margin: 0px; padding:0px; background:none; border:none; }
+.portfolio-grid .thumbnail .caption { padding:0px; }
+.portfolio-grid .thumbnail .caption h3 { margin:10px 0px; padding:0px; font-weight:400; font-size:18px; }
